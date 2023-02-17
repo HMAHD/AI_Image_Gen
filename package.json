@@ -1,23 +1,15 @@
 {
-  "name": "ai_image_gen",
+  "name": "nodejs-openapi-image",
   "version": "1.0.0",
-  "description": "Ai Image Generator using Dall-E 2 🤖",
+  "description": "Generate images using OpenAI",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HMAHD/AI_Image_Gen.git"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HMAHD/AI_Image_Gen/issues"
-  },
-  "homepage": "https://github.com/HMAHD/AI_Image_Gen#readme",
+  "author": "Akash Hasendra",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
